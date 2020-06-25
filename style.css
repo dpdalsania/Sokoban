@@ -1,0 +1,58 @@
+body { 
+    background: lightblue;
+   padding: 5px;
+   padding-top: 0px;
+   text-align: center;
+}
+table {
+   border-spacing: 0px;
+   border-color: black;
+   /* margin: 80px;
+   padding:40px;*/
+   margin-left: 30%;
+  
+}
+td{
+    width: 70px;
+    height: 70px;
+}
+.wall {
+   width: 70px;
+   height: 70px;
+   background-image: url(https://static.wixstatic.com/media/3176fe_7b413c68b5c448dba015a3d96ed04a16.jpg);
+   border: 1px solid black;
+   background-size: cover;
+}
+.empty{
+    border-radius: 50%;
+    background:black;
+    height: 1em;
+    width: 1em;
+    margin: 20px;
+}
+.Box{
+    background-image: url(https://st3.depositphotos.com/1472772/19352/i/1600/depositphotos_193522648-stock-photo-wooden-crate-cargo-box-isolated.jpg);
+    background-size: cover;
+}
+.darkBox{
+    background-image: url(https://photos2.fotosearch.com/bthumb/CSP/CSP110/bois-cargaison-caisse-banque-dillustrations__k1106924.jpg);
+    background-size: cover;
+}
+.start{
+    background-image: url(https://pngimage.net/wp-content/uploads/2018/05/%C3%A7izgi-k%C4%B1z-png.png);
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+h1{
+   font-size: 60px;
+   width: 50%;
+   margin-left: 25%;
+   margin-top:0px;
+   
+}
+.result{
+    display: none;
+    font-size: 90px;
+    color:yellow;
+}
